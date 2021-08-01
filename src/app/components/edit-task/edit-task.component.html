@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 class="text-center">Edit {{oldTask.task}} Task</h1>
+    <div class="main">
+    <form #f="ngForm" (ngSubmit)="updateTask(f)" class="text-center">
+        <input #task="ngModel" [(ngModel)]="oldTask.task" type="text" class="form-control" placeholder="What needs to be done?" autofocus name="task">
+        <button class='btn btn-success'>Save</button>
+        <button class="btn btn-danger" routerLink="/">Cancel</button>
+    </form>
+    </div>
+</div>

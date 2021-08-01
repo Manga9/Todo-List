@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+}
+
+input[type=checkbox] {
+    width: 40px;
+    height: 40px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex
+}
+
+label {
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+.controls {
+    margin-right: 30px;
+}
+
+button {
+    margin: 0 5px;
+}
+
+.del {
+    text-decoration: line-through;
+    color: #a2a1a1;
+}
+
+.notDel {
+    text-decoration: none;
+    color: #333;
+}

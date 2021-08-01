@@ -1,0 +1,9 @@
+<div class="container">
+    <h1 class="text-center">Todos</h1>
+    <div class="main">
+    <form #f="ngForm" (ngSubmit)="addTask(f)">
+        <input #task="ngModel" ngModel type="text" class="form-control" placeholder="What needs to be done?" autocomplete="work" autofocus name="task" required>
+    </form>
+    <app-tasks></app-tasks>
+    </div>
+</div>

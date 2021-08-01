@@ -1,0 +1,28 @@
+.main {
+    background-color: #fff;
+    box-shadow: 2px 4px 8px #ddd;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #eee;
+    outline: 0;
+    box-shadow: none;
+}
+
+input {
+    padding: 35px 25px;
+    font-size: 18px;
+    border-radius: 0;
+    border-color: #eee;
+}

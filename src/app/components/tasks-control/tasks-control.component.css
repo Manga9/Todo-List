@@ -1,0 +1,6 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    color: #8a7777;
+}
